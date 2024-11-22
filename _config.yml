@@ -3,3 +3,12 @@ description: Ph.D. Candidate in Statistics
 theme: jekyll-theme-minimal
 baseurl: ""
 url: "https://zeyudsai.github.io"
+
+# 添加插件支持
+plugins:
+  - jekyll-seo-tag
+
+# 作者信息
+author:
+  name: Zeyu Ding
+  email: zeyu.ding@tu-dortmund.de

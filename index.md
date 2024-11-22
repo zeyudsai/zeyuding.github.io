@@ -1,15 +1,21 @@
 ---
-layout: single
-author_profile: true
-classes: wide
+layout: page
+title: Zeyu Ding
+subtitle: Computer Science & Engineering
+cover-img: 
+  - "/assets/img/header-bg.jpg"
 ---
 
-# Software Engineer
+## Research Focus
 
-Focused on developing elegant solutions to complex problems. Experienced in full-stack development and machine learning applications.
+Exploring the intersection of machine learning and systems engineering, with a particular emphasis on developing efficient and scalable solutions.
 
-## Areas of Expertise
-- Software Development
-- Data Structures & Algorithms
-- Machine Learning
-- System Design
+---
+
+### Current Work
+
+Currently focused on advanced system architectures and their applications in real-world scenarios, with specific interests in:
+
+- Distributed Systems
+- Machine Learning Systems
+- High-Performance Computing

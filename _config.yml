@@ -1,34 +1,35 @@
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "contrast" # elegant dark theme
-locale: "en-US"
-title: "Zeyu Ding"
-subtitle: "Portfolio & Projects"
-name: "Zeyu Ding"
-description: "Personal Portfolio"
-    
-# Site Settings
-search: false
-logo: false
+remote_theme: daattali/beautiful-jekyll
 
-# Site Author
-author:
-  name: "Zeyu Ding"
-  bio: "Computer Science Graduate | Software Engineer"
-  location: "Your Location"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/zeyudsai"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "your-linkedin-url"
+# Site settings
+title: Zeyu Ding
+author: Zeyu Ding
+description: Portfolio & Research
 
-# Layout
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      classes: wide
+# Navigation
+navbar-links:
+  About: "about"
+  Projects: "projects"
+  Publications: "publications"
+  
+# Colors
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+
+# Social network
+social-network-links:
+  email: "your.email@example.com"
+  github: zeyudsai
+  linkedin: your-linkedin-username
+  
+# Advanced settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist

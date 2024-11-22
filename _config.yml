@@ -1,35 +1,14 @@
-remote_theme: daattali/beautiful-jekyll
-
-# Site settings
+remote_theme: pages-themes/minimal
 title: Zeyu Ding
-author: Zeyu Ding
-description: Portfolio & Research
+description: Ph.D. Candidate in Statistics
+#logo: /assets/img/logo.png  # 如果你想添加个人照片
 
-# Navigation
-navbar-links:
-  About: "about"
-  Projects: "projects"
-  Publications: "publications"
-  
-# Colors
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-
-# Social network
-social-network-links:
-  email: "your.email@example.com"
+social:
   github: zeyudsai
-  linkedin: your-linkedin-username
-  
-# Advanced settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
+  linkedin: zeyu-ding-sai
+  email: zeyu.ding@tu-dortmund.de
+
+#google_analytics: [Your tracking ID] # 可选
+
 plugins:
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-seo-tag

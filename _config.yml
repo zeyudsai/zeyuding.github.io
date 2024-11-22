@@ -1,14 +1,15 @@
 remote_theme: pages-themes/minimal
 title: Zeyu Ding
-description: Ph.D. Candidate in Statistics
-#logo: /assets/img/logo.png  # 如果你想添加个人照片
+description: Ph.D. Candidate in Statistics | TU Dortmund
+show_downloads: false
 
-social:
-  github: zeyudsai
-  linkedin: zeyu-ding-sai
-  email: zeyu.ding@tu-dortmund.de
+github:
+  is_project_page: false
 
-#google_analytics: [Your tracking ID] # 可选
-
-plugins:
-  - jekyll-seo-tag
+# 为页面添加元数据
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

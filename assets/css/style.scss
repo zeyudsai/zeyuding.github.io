@@ -3,80 +3,15 @@
 
 @import "{{ site.theme }}";
 
-/* Custom styles */
 body {
   font-family: "EB Garamond", serif;
-  font-size: 16px;
   line-height: 1.6;
-  color: #24292e;
-  background-color: #fff;
 }
 
-h1, h2, h3, h4 {
-  font-family: "Source Sans Pro", sans-serif;
+h1, h2, h3 {
   color: #24292e;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
 }
 
 a {
   color: #0366d6;
-  text-decoration: none;
-  
-  &:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
-}
-
-.wrapper {
-  width: 860px;
-  margin: 0 auto;
-}
-
-header {
-  width: 270px;
-  float: left;
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
-
-  h1 {
-    font-size: 28px;
-    margin-bottom: 0.5em;
-  }
-}
-
-section {
-  width: 500px;
-  float: right;
-  padding-bottom: 50px;
-}
-
-.publication {
-  margin-bottom: 2em;
-  border-bottom: 1px solid #eaecef;
-  
-  &:last-child {
-    border-bottom: none;
-  }
-}
-
-.project {
-  background: #f6f8fa;
-  padding: 1.5em;
-  margin-bottom: 2em;
-  border-radius: 3px;
-  
-  h3 {
-    margin-top: 0;
-  }
-}
-
-.contact-info {
-  margin-top: 2em;
-  font-size: 0.9em;
-  
-  a {
-    margin-right: 1em;
-  }
 }

@@ -1,0 +1,34 @@
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "contrast" # elegant dark theme
+locale: "en-US"
+title: "Zeyu Ding"
+subtitle: "Portfolio & Projects"
+name: "Zeyu Ding"
+description: "Personal Portfolio"
+    
+# Site Settings
+search: false
+logo: false
+
+# Site Author
+author:
+  name: "Zeyu Ding"
+  bio: "Computer Science Graduate | Software Engineer"
+  location: "Your Location"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zeyudsai"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "your-linkedin-url"
+
+# Layout
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide

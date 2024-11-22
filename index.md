@@ -2,49 +2,64 @@
 layout: default
 ---
 
-# About Me
+# Zeyu Ding
 
-I am a Ph.D. candidate in Statistics at TU Dortmund, working under the supervision of Prof. Dr. Katja Ickstadt and Dr. Alexander Munteanu. Currently, I am also working as a Scientific Researcher at the Lamarr Institute for Machine Learning and AI.
+## About Me
 
-## Research Focus
+Ph.D. candidate in Statistics at TU Dortmund, supervised by Prof. Dr. Katja Ickstadt and Dr. Alexander Munteanu. Currently working as a Scientific Researcher at [Lamarr Institute for Machine Learning and AI](link), one of Germany's top AI research centers.
+
+## Research Interests
+
 - Bayesian Statistics
-- Machine Learning
-- Data Reduction Techniques
+- Machine Learning Algorithms
+- Data Reduction Approaches
+- High-Dimensional Complex Models
 - Statistical Computing
-- Deep Learning
 
-## Current Position
-- Scientific Researcher | Lamarr Institute for Machine Learning and AI
-- Ph.D. Candidate | TU Dortmund
-- Research Group: SFB 876 - C4
+## Featured Publications
 
-## Contact
-- Email: zeyu.ding@tu-dortmund.de
-- GitHub: [zeyudsai](https://github.com/zeyudsai)
-- LinkedIn: [Zeyu Ding](https://www.linkedin.com/in/zeyu-ding-sai/)
-
-## Publications
-
-### Journal Articles
+### Recent Papers
 
 **Scalable Bayesian p-Generalized Probit and Logistic Regression**  
+*Advances in Data Analysis and Classification (2024)*  
 Zeyu Ding, Katja Ickstadt, Alexander Munteanu, Simon Omlor  
-*Advances in Data Analysis and Classification*, June 2024
+[Paper](link)
 
 **Bayesian analysis for dimensionality and complexity reduction**  
+*Machine Learning under Resource Constraints (2023)*  
 Zeyu Ding, Katja Ickstadt, Alexander Munteanu  
-*Machine Learning under Resource Constraints - Applications, deGruyter, Berlin*, Jan 2023, 58-70
+[Paper](link)
 
-## Projects
+## Current Projects
 
 ### AI for Physics | KISS Project
-*TU Dortmund, Aug. 2023 - Present*
-- Developing advanced Bayesian and Monte Carlo algorithms
+*TU Dortmund, 2023 - Present*
+- Developing advanced Bayesian and Monte Carlo algorithms for simulated collision experiments
 - Collaborating with ATLAS data at CERN
 - Applying state-of-the-art machine learning algorithms
 
 ### Big Data for Copula and Normalized Flow Models
-*TU Dortmund, May 2023 – Present*
-- Developing new efficient data compression algorithms
-- Deriving theoretical proofs and empirical simulations
-- Target: Journal of Machine Learning Research, 2024
+*TU Dortmund, 2023 – Present*
+- Developing efficient data compression algorithms for MCTMs
+- Theoretical proofs and empirical simulations
+- Targeting Journal of Machine Learning Research
+
+## Recent Talks
+
+- **17th International Conference on Computational and Methodological Statistics**  
+  Berlin, Germany (December 2023)
+- **16th International Conference on Computational and Methodological Statistics**  
+  KCL, London, UK (December 2022)
+
+## Technical Skills
+
+- **Programming Languages**: Python, R, SAS, Julia, SQL
+- **Statistical Methods**: Bayesian Statistics, MCMC, GLM, Time Series Analysis
+- **Machine Learning**: Gradient Boosting, Random Forests, Deep Learning
+- **Tools & Frameworks**: PyTorch, PySpark, LaTeX
+
+## Contact
+
+- Email: zeyu.ding@tu-dortmund.de
+- [GitHub](https://github.com/zeyudsai)
+- [LinkedIn](https://www.linkedin.com/in/zeyu-ding-sai/)

@@ -1,8 +1,12 @@
-<p>Hello </p>
-<p> </p>
-<p></p>
-
-<ul>
-  <li> <a href="https://www.zhihu.com/">google</a> </li>
-  <li> <a href="https://www.zhihu.com/">google</a> </li>
-</ul>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p>Website is in building.</p>
+</body>
+</html>

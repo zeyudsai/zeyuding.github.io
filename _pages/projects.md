@@ -1,32 +1,31 @@
 ---
-layout: page
-title: Projects
+layout: default
 ---
 
-## Selected Projects
+# Research Projects
 
-### Advanced System Architecture
-*2023*
+## Current Projects
 
-A novel approach to distributed system design, focusing on efficiency and scalability.
+### Big Data for Copula and Normalized Flow Models
+*TU Dortmund, May 2023 – Present*
 
-**Key Achievements:**
-- Improved system throughput by 40%
-- Reduced latency by 25%
-- Implemented in production environment
+- Developing new efficient data compression algorithms for multivariate conditional transformation models (MCTMs)
+- Deriving theoretical proofs and empirical simulations
+- Code and packages development in progress
+- Target: Journal of Machine Learning Research, 2024
 
-[View Details](link) • [GitHub](link)
+### AI for Physics | KISS Project
+*TU Dortmund, Aug. 2023 - Present*
 
----
+- Developing advanced Bayesian and Monte Carlo algorithms for simulated collision experiments
+- Collaborating with ATLAS data at CERN
+- Applying state-of-the-art machine learning algorithms (GANs, Normalized Flow, Diffusion models)
 
-### High-Performance Computing Framework
-*2022*
+## Completed Projects
 
-Development of a specialized computing framework for scientific applications.
+### Big Data for Advanced Classification Models
+*Lamarr Institute, Nov. 2021 - Nov. 2023*
 
-**Technical Highlights:**
-- Custom scheduling algorithm
-- Advanced resource management
-- Real-time monitoring system
-
-[Documentation](link) • [Paper](link)
+- Developed new MCMC algorithms for Bayesian p-generalized probit/Logistic model
+- Achieved significant computational efficiency improvements
+- Published in Advances in Data Analysis and Classification

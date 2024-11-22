@@ -1,15 +1,12 @@
-remote_theme: pages-themes/minimal
 title: Zeyu Ding
-description: Ph.D. Candidate in Statistics | TU Dortmund
+description: Ph.D. Candidate in Statistics
+theme: jekyll-theme-minimal
+
+# 基本设置
 show_downloads: false
+#google_analytics: [Your tracking ID] # 可选
 
-github:
-  is_project_page: false
-
-# 为页面添加元数据
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+# 作者信息
+author:
+  name: Zeyu Ding
+  email: zeyu.ding@tu-dortmund.de

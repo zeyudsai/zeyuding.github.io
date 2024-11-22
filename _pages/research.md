@@ -1,34 +1,67 @@
 ---
 layout: default
+title: Research
+permalink: /research/
 ---
 
-# Research
+# Research Projects
 
-## Publications
+## Current Research
 
-### Journal Articles
+### Big Data for Copula and Normalized Flow Models
+*TU Dortmund, May 2023 – Present*
 
-**Scalable Bayesian p-Generalized Probit and Logistic Regression**  
-Zeyu Ding, Katja Ickstadt, Alexander Munteanu, Simon Omlor  
-*Advances in Data Analysis and Classification*, June 2024  
-[Paper](link) | [Code](link)
+Developing new efficient data compression algorithms for multivariate conditional transformation models (MCTMs), also known as normalized flow in machine learning.
 
-**Bayesian analysis for dimensionality and complexity reduction**  
-Zeyu Ding, Katja Ickstadt, Alexander Munteanu  
-*Machine Learning under Resource Constraints - Applications, deGruyter, Berlin*, Jan 2023, 58-70
+**Key Contributions:**
+- Novel data compression algorithms for MCTMs
+- Theoretical proofs for data compression efficiency
+- Empirical validation through extensive simulations
+- Implementation in Python and R
 
-## Ongoing Research
+**Status:** Manuscript in preparation for Journal of Machine Learning Research
 
-**Efficiency coresets techniques for multivariate conditional transformation models**  
-*Planning to submit to Journal of Machine Learning Research*  
-With Nadja Klein, Katja Ickstadt, Alexander Munteanu
+### AI for Physics | KISS Project
+*TU Dortmund, Aug 2023 - Present*
 
-## Recent Talks
+Artificial intelligence approaches for rapid simulation of scientific data, focusing on particle physics applications.
 
-- **17th International Conference on Computational and Methodological Statistics**  
-  Berlin, Germany, December 2023  
-  Topic: Efficiency coresets techniques for multivariate conditional transformation models
+**Project Highlights:**
+- Development of Bayesian and Monte Carlo algorithms
+- Collaboration with CERN's ATLAS experiment
+- Implementation of state-of-the-art ML algorithms
+  - Generative Adversarial Networks
+  - Normalized Flow Models
+  - Diffusion Models
 
-- **16th International Conference on Computational and Methodological Statistics**  
-  KCL, London, UK, December 2022  
-  Topic: Scalable Bayesian p-Generalized Probit and Logistic Regression via Coresets
+## Completed Research
+
+### Big Data for Advanced Classification Models
+*Lamarr Institute, Nov 2021 - Nov 2023*
+
+Development of new MCMC algorithms for Bayesian p-generalized probit/Logistic model.
+
+**Achievements:**
+- Created novel MCMC algorithms
+- Demonstrated significant computational efficiency improvements
+- Published in Advances in Data Analysis and Classification
+- Released open-source R package
+
+### AI for Credit Scoring
+*Daimler Financial Service, Sep 2019 - Mar 2020*
+
+**Project Overview:**
+- Developed credit risk models for global markets
+- Enhanced model accuracy from 77% to 86% ROC
+- Implemented various ML algorithms
+  - Gradient Boosting
+  - XGBoost
+  - LightGBM
+  - Random Forest
+
+## Research Interests
+
+- **Bayesian Statistics**: MCMC methods, prior selection, model selection
+- **Machine Learning**: Deep learning, probabilistic models, optimization
+- **High-Performance Computing**: Parallel computing, GPU acceleration
+- **Statistical Theory**: Asymptotic theory, convergence analysis

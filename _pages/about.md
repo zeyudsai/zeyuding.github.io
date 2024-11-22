@@ -1,42 +1,34 @@
 ---
-title: "About"
-permalink: /about/
+layout: page
+title: About
 ---
 
-## Professional Summary
-Detail-oriented software engineer with a strong foundation in computer science and a passion for creating efficient, elegant solutions.
+## Professional Profile
+
+A systems engineer focused on developing elegant solutions to complex problems. With a background in computer science and engineering, I combine technical expertise with a deep understanding of system architectures.
 
 ## Education
-**University Name**  
-Master of Science in Computer Science  
-*2020 - 2022*
 
 **University Name**  
-Bachelor of Science in Computer Science  
-*2016 - 2020*
+Ph.D. in Computer Science  
+*Research Focus: Distributed Systems*
+
+**University Name**  
+M.S. in Computer Engineering  
+*Focus: Computer Architecture*
 
 ## Technical Expertise
 
-### Programming Languages
-- Python: Advanced
-- Java: Proficient
-- C++: Proficient
-- JavaScript: Intermediate
+| Area | Skills |
+| ---- | ------ |
+| Systems | Unix/Linux, Distributed Systems, Cloud Computing |
+| Languages | C++, Python, Go |
+| Tools | Docker, Kubernetes, AWS |
 
-### Technologies & Tools
-- Frameworks: React, Node.js, Django
-- Databases: PostgreSQL, MongoDB
-- Tools: Git, Docker, AWS
+## Research Interests
 
-## Professional Experience
+My research focuses on the design and implementation of efficient distributed systems, particularly:
 
-**Company Name** | Software Engineer  
-*Jan 2023 - Present*
-- Architected and implemented scalable backend services using Python and Node.js
-- Optimized database queries resulting in 40% performance improvement
-- Led the development of RESTful APIs serving 100K+ daily requests
-
-**Company Name** | Software Engineer Intern  
-*Summer 2022*
-- Developed and maintained microservices using Java Spring Boot
-- Implemented automated testing procedures improving code coverage by 25%
+- Large-scale system design
+- Performance optimization
+- Reliability engineering

@@ -1,14 +1,14 @@
 title: Zeyu Ding
 description: Ph.D. Candidate in Statistics
 theme: jekyll-theme-minimal
-baseurl: ""
-url: "https://zeyudsai.github.io"
 
-# 添加插件支持
+# 重要：添加这些配置
+markdown: kramdown
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
 
-# 作者信息
-author:
-  name: Zeyu Ding
-  email: zeyu.ding@tu-dortmund.de
+# 确保这些路径设置正确
+baseurl: ""
+url: "https://zeyudsai.github.io"

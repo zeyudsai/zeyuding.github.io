@@ -1,31 +1,5 @@
-# 基本设置
-title: Zeyu Ding
-description: Ph.D. Candidate in Statistics
-theme: jekyll-theme-minimal
-
-# GitHub Pages 设置
-github:
-  is_project_page: false
-
-# 重要：确保这些插件被正确加载
+title: "Zeyu Ding | Personal Website"
+description: "A personal website for Zeyu Ding, Ph.D. candidate in Statistics"
+theme: minima
 plugins:
   - jekyll-seo-tag
-
-# Jekyll设置
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-# 重要：确保这些路径正确
-baseurl: ""
-url: "https://zeyudsai.github.io/"
-
-# 添加作者信息
-author:
-  name: Zeyu Ding
-  email: zeyu.ding@tu-dortmund.de
-
-# GitHub设置
-github:
-  is_project_page: false

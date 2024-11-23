@@ -1,10 +1,11 @@
 # 基本设置
 title: Zeyu Ding
 description: Ph.D. Candidate in Statistics
-logo: # 可以添加你的照片路径
-
-# 主题设置（使用最稳定的minimal主题）
 theme: jekyll-theme-minimal
+
+# GitHub Pages 设置
+github:
+  is_project_page: false
 
 # 重要：确保这些插件被正确加载
 plugins:

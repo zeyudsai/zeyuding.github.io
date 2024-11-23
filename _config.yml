@@ -1,20 +1,30 @@
+# 基本设置
 title: Zeyu Ding
 description: Ph.D. Candidate in Statistics
-remote_theme: pages-themes/minimal@v0.2.0
+logo: # 可以添加你的照片路径
+
+# 主题设置（使用最稳定的minimal主题）
+theme: jekyll-theme-minimal
+
+# 重要：确保这些插件被正确加载
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
 
-# 重要的配置
+# Jekyll设置
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
-# 作者信息
+# 重要：确保这些路径正确
+baseurl: ""
+url: "https://zeyudsai.github.io"
+
+# 添加作者信息
 author:
   name: Zeyu Ding
   email: zeyu.ding@tu-dortmund.de
 
-# 网站设置
-baseurl: ""
-url: https://zeyudsai.github.io
+# GitHub设置
+github:
+  is_project_page: false

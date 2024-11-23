@@ -18,7 +18,7 @@ kramdown:
 
 # 重要：确保这些路径正确
 baseurl: ""
-url: "https://zeyudsai.github.io"
+url: "https://zeyudsai.github.io/"
 
 # 添加作者信息
 author:

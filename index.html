@@ -3,196 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeyu Ding</title>
-    <style>
-        body {
-            font-family: "EB Garamond", serif;
-            line-height: 1.6;
-            color: #2c3e50;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: #f8f9fa;
-        }
-        
-        h1, h2, h3 {
-            font-family: "Spectral", serif;
-            color: #34495e;
-        }
-        
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 1em;
-            color: #2c3e50;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 0.5em;
-        }
-        
-        h2 {
-            font-size: 1.8em;
-            margin-top: 2em;
-            color: #4a5568;
-        }
-        
-        h3 {
-            font-size: 1.4em;
-            color: #586374;
-        }
-        
-        .container {
-            background: white;
-            padding: 3rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        
-        .section {
-            margin-bottom: 2.5em;
-        }
-        
-        .skills-list {
-            list-style: none;
-            padding: 0;
-        }
-        
-        .skills-list li {
-            margin-bottom: 0.5em;
-        }
-        
-        .publication {
-            margin-bottom: 2em;
-            padding-bottom: 1em;
-            border-bottom: 1px solid #eee;
-        }
-        
-        .publication-title {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        
-        .publication-authors {
-            font-style: italic;
-            color: #666;
-        }
-        
-        .publication-venue {
-            color: #666;
-        }
-        
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            color: #2980b9;
-            text-decoration: underline;
-        }
-        
-        .contact {
-            background: #f8f9fa;
-            padding: 1em;
-            border-radius: 4px;
-            margin-top: 2em;
-        }
-        
-        @media (max-width: 768px) {
-            body {
-                padding: 1rem;
-            }
-            
-            .container {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <meta name="description" content="Zeyu Ding - Ph.D. candidate in Statistics">
+    <meta name="author" content="Zeyu Ding">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Zeyu Ding - Personal Website</title>
 </head>
 <body>
-    <div class="container">
+    <header>
+        <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-pic">
         <h1>Zeyu Ding</h1>
-        
-        <div class="section">
+        <p>Ph.D. Candidate in Statistics</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
             <h2>About Me</h2>
-            <p>Ph.D. candidate in Statistics at TU Dortmund, working under the supervision of Prof. Dr. Katja Ickstadt and Dr. Alexander Munteanu. Currently working as a Scientific Researcher at Lamarr Institute for Machine Learning and AI, one of Germany's top AI research centers.</p>
-        </div>
-
-        <div class="section">
-            <h2>Research Interests</h2>
+            <p>I am a Ph.D. candidate at TU Dortmund working on high-dimensional Bayesian models...</p>
+        </section>
+        <section id="research">
+            <h2>Research</h2>
             <ul>
                 <li>Bayesian Statistics</li>
                 <li>Machine Learning</li>
-                <li>Data Reduction Approaches</li>
-                <li>High-Dimensional Complex Models</li>
+                <li>High-Dimensional Models</li>
                 <li>Statistical Computing</li>
             </ul>
-        </div>
-
-        <div class="section">
-            <h2>Teaching Experience</h2>
-            <p>I have been involved in teaching the following courses at TU Dortmund:</p>
+        </section>
+        <section id="experience">
+            <h2>Working Experience</h2>
             <ul>
-                <li><strong>Monte Carlo Simulation Methods</strong><br>
-                    <em>Advanced statistical computing techniques and simulation methods</em></li>
-                <li><strong>Statistical Learning and Big Data Analysis</strong><br>
-                    <em>Machine learning algorithms and big data processing</em></li>
-                <li><strong>Bayesian Statistics</strong><br>
-                    <em>Theoretical foundations and practical applications</em></li>
-                <li><strong>Case Studies in Statistics</strong><br>
-                    <em>Real-world statistical analysis and problem solving</em></li>
+                <li><strong>Lamarr Institute for AI</strong> - Scientific Researcher (2024 - Present)</li>
+                <li><strong>TU Dortmund</strong> - Scientific Researcher (2021 - Present)</li>
+                <li><strong>Daimler Mobility AG</strong> - Quantitative Risk Management Intern</li>
             </ul>
-        </div>
-
-        <div class="section">
-            <h2>Technical Expertise</h2>
-            
-            <h3>Programming Languages & Tools</h3>
-            <ul class="skills-list">
-                <li><strong>Advanced:</strong> Python, R</li>
-                <li><strong>Proficient:</strong> SAS, Julia, SQL</li>
-                <li><strong>Intermediate:</strong> VBA, LaTeX, PySpark, PyTorch</li>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li><strong>Scalable Bayesian p-Generalized Probit Regression</strong> - Advances in Data Analysis</li>
+                <li><strong>Bayesian Analysis for Dimensionality Reduction</strong> - Machine Learning under Constraints</li>
             </ul>
-            
-            <h3>Statistical Methods & Theory</h3>
-            <ul class="skills-list">
-                <li><strong>Bayesian Methods:</strong> MCMC, Prior Design, Model Selection</li>
-                <li><strong>Machine Learning:</strong> Gradient Boosting, Random Forests, SVMs</li>
-                <li><strong>Deep Learning:</strong> Neural Networks, RNN, LSTM, Bayesian Neural Networks</li>
-                <li><strong>Statistical Modeling:</strong> GLM, Time Series (ARIMA, GARCH, GJR-GARCH)</li>
-            </ul>
-            
-            <h3>Software Development</h3>
-            <ul class="skills-list">
-                <li><strong>Version Control:</strong> Git</li>
-                <li><strong>IDEs:</strong> PyCharm, RStudio</li>
-                <li><strong>Big Data:</strong> Hadoop, Spark</li>
-                <li><strong>Cloud Computing:</strong> AWS</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Recent Publications</h2>
-            
-            <div class="publication">
-                <div class="publication-title">Scalable Bayesian p-Generalized Probit and Logistic Regression</div>
-                <div class="publication-authors">Zeyu Ding, Katja Ickstadt, Alexander Munteanu, Simon Omlor</div>
-                <div class="publication-venue">Advances in Data Analysis and Classification (2024)</div>
-            </div>
-            
-            <div class="publication">
-                <div class="publication-title">Bayesian analysis for dimensionality and complexity reduction</div>
-                <div class="publication-authors">Zeyu Ding, Katja Ickstadt, Alexander Munteanu</div>
-                <div class="publication-venue">Machine Learning under Resource Constraints (2023)</div>
-            </div>
-        </div>
-
-        <div class="contact">
+        </section>
+        <section id="contact">
             <h2>Contact</h2>
-            <ul class="skills-list">
+            <ul>
                 <li>Email: <a href="mailto:zeyu.ding@tu-dortmund.de">zeyu.ding@tu-dortmund.de</a></li>
-                <li>GitHub: <a href="https://github.com/zeyudsai">zeyudsai</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/zeyu-ding-sai/">Zeyu Ding</a></li>
+                <li>GitHub: <a href="https://github.com/zeyudsai" target="_blank">zeyudsai</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/zeyu-ding-sai/" target="_blank">Zeyu Ding</a></li>
             </ul>
-        </div>
-    </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zeyu Ding. All rights reserved.</p>
+    </footer>
 </body>
 </html>
